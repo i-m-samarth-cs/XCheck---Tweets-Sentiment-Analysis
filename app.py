@@ -23,7 +23,8 @@ import seaborn as sns
 try:
     nltk.download('stopwords', quiet=True)
     nltk.download('wordnet', quiet=True)
-    nltk.download('punkt', quiet=True)
+    import nltk
+    nltk.download('punkt')
 except:
     pass
 
